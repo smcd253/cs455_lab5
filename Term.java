@@ -22,11 +22,11 @@ public class Term {
          */
         public Term(double aCoeff, int anExpon) {
             assert anExpon >= 0;  // only gets checked when assertions enabled
-    
+            
             coeff = aCoeff;
             expon = anExpon;
         }
-    
+        
         /**
            Return the coefficent of the term
         */
